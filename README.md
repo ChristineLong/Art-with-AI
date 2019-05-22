@@ -12,4 +12,6 @@ Train the model to write movie plots and EDM
 
   1.4 Build sequential model
 
-  1.5 Model diagnostics and evaluation
+  1.5 Model evaluation
+  
+  1.6 Tuning parameters
