@@ -7,16 +7,7 @@ from keras.layers import Dropout
 from keras.layers import LSTM
 from keras.utils import np_utils
 from keras.callbacks import ModelCheckpoint
-
 import tensorflow as tf
-#Sets the threshold for what messages will be logged.
-old_v = tf.logging.get_verbosity()
-# able to set the logging verbosity to either DEBUG, INFO, WARN, ERROR, or FATAL. Here its ERROR
-tf.logging.set_verbosity(tf.logging.ERROR)
-from tensorflow.examples.tutorials.mnist import input_data
-mnist = input_data.read_data_sets("/tmp/data/", one_hot = True)
-#in the end
-tf.logging.set_verbosity(old_v)
 
 
 #import data and clean
